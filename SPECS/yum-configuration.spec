@@ -1,5 +1,5 @@
 Name:           yum-configuration
-Version:        1
+Version:        1.0
 Release:        0
 Summary:        A BASH script to help maintain configuration control over Linux machines
 
@@ -16,20 +16,18 @@ A simple BASH script with a configuration file that dumps a yum list to a text f
 %setup -q
 %build
 %install
+rm -rf $RPM_BUILD_ROOT
 install -m 0755 -d $RPM_BUILD_ROOT/etc/yum-configuration
 install -m 0755 -d $RPM_BUILD_ROOT/usr/lib/yum-configuration
 install -m 0644 yum-configuration-output.conf $RPM_BUILD_ROOT/etc/yum-configuration/yum-configuration-output.conf
 install -m 0755 yum-configuration.sh $RPM_BUILD_ROOT/usr/lib/yum-configuration/yum-configuration.sh
-install -m 0644 README.md $RPM_BUILD_ROOT/usr/lib/yum-configuration/README.md
-
 
 %files
+%doc README
 /etc/yum-configuration
 /etc/yum-configuration/yum-configuration-output.conf
 /usr/lib/yum-configuration
 /usr/lib/yum-configuration/yum-configuration.sh
-/usr/lib/yum-configuration/README.md
-
 
 %changelog
 * Tue Oct 02 2018 Brady Owens  1.0.0
