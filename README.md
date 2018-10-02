@@ -11,7 +11,7 @@ To build this RPM you need to have the RPMbuild and RPMdevtools installed.
 Enter the SOURCES folder and and create a tarball of the package for the RPM to use in build
 
 - `cd SOURCES`
-- `tar -czf yum-configuration-1.0.tar.gz yum-configuration-1`
+- `tar -czf yum-configuration-1.0.tar.gz yum-configuration-1.0`
 
 Return to the root of this repo
 
