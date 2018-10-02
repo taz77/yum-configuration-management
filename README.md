@@ -24,4 +24,4 @@ The output of this will be an RPM in `./RPMS/noarch/` named `yum-configuration-1
 
 Modify the configuration file /etc/yum-configuration/yum-configuration-output.conf before running this script. The configuration file will define the destination of the reports and the name of the ethernet device on the machine that is being used to identify the reports.
 
-Once configured, this script can be run manually or via cron.
+Once configured, this script can be run manually or via cron. The script is installed into `/usr/lib/yum-configuration/` which may need to be added to your PATH.
