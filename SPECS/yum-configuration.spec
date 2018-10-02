@@ -29,5 +29,5 @@ install -m 0644 README.md $RPM_BUILD_ROOT/usr/lib/yum-configuration/README.md
 
 
 %changelog
-* Tue Oct 01 2018 Brady Owens  1.0.0
+* Tue Oct 02 2018 Brady Owens  1.0.0
   - Initial rpm release
