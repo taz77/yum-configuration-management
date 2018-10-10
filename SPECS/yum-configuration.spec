@@ -7,7 +7,7 @@ Group:          TecAdmin
 BuildArch:      noarch
 License:        MIT
 URL:            https://github.com/taz77/yum-configuration-management
-Source0:        yum-configuration-1.0.tar.gz
+Source0:        yum-configuration-1.0.0.tar.gz
 
 %description
 A simple BASH script with a configuration file that dumps a yum list to a text file with the date and IP address as part of the filename.
