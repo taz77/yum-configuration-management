@@ -1,5 +1,5 @@
 Name:           yum-configuration
-Version:        1.0
+Version:        1.0.0
 Release:        0
 Summary:        A BASH script to help maintain configuration control over Linux machines
 
